@@ -1,0 +1,152 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {    
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    color: #333;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    background-color: #555;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cover {
+    height: 15vh;
+    background-image: url("./assets/images/logo-cover01.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+}
+
+section {
+    padding: 10px 0;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 10px;
+}
+
+.portfolio-gallery {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+
+    img {
+        width: 25%;
+        height: 150px;
+        object-fit: cover;
+        margin-top: 8px;
+        padding: 0 4px;
+        border-radius: 8px;
+    
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header {
+        padding: 15px 0;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .portfolio-gallery {
+        
+        img {
+            width: 125px;
+        }
+    }
+    
+}
+
+
