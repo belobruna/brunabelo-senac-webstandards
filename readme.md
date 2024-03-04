@@ -1,0 +1,1 @@
+Projeto realizado pela aluna Bruna Barbosa Belo, para avaliação da disciplina Web Standards, do curso de Análise de Sistemas do SENAC-EAD. 
